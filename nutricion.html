@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores del Chef</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-utensils"></i> Sabores del Chef</h1>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Inicio</a></li>
+                    <li><a href="recetas.html"><i class="fas fa-book-open"></i> Recetas</a></li>
+                    <li><a href="nutricion.html"><i class="fas fa-chart-pie"></i> Nutrición</a></li>
+                    <li><a href="videos.html"><i class="fas fa-video"></i> Videos</a></li>
+                    <li><a href="contacto.html"><i class="fas fa-envelope"></i> Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="nutricion">
+            <div class="container">
+                <h2>Información Nutricional</h2>
+                <p>Comparativa nutricional de nuestras recetas más populares (por porción):</p>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th rowspan="2">Receta</th>
+                            <th colspan="3">Macronutrientes (g)</th>
+                            <th rowspan="2">Calorías</th>
+                            <th rowspan="2">Tiempo de Preparación</th>
+                        </tr>
+                        <tr>
+                            <th>Proteínas</th>
+                            <th>Carbohidratos</th>
+                            <th>Grasas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Pasta Carbonara</td>
+                            <td>28</td>
+                            <td>65</td>
+                            <td>42</td>
+                            <td>720</td>
+                            <td>25 min</td>
+                        </tr>
+                        <tr>
+                            <td>Pizza Margherita</td>
+                            <td>15</td>
+                            <td>58</td>
+                            <td>18</td>
+                            <td>450</td>
+                            <td>45 min</td>
+                        </tr>
+                        <tr>
+                            <td>Ensalada César</td>
+                            <td>32</td>
+                            <td>12</td>
+                            <td>25</td>
+                            <td>380</td>
+                            <td>15 min</td>
+                        </tr>
+                        <tr>
+                            <td>Sopa de Tomate</td>
+                            <td>6</td>
+                            <td>28</td>
+                            <td>8</td>
+                            <td>195</td>
+                            <td>30 min</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><strong>Promedio General</strong></td>
+                            <td><strong>436</strong></td>
+                            <td><strong>29 min</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="nutrition-tips">
+                    <h3><i class="fas fa-lightbulb"></i> Consejos Nutricionales</h3>
+                    <ul>
+                        <li><strong>Balance es clave:</strong> Trata de incluir proteínas, carbohidratos y grasas saludables en cada comida.</li>
+                        <li><strong>Porciones:</strong> Los valores mostrados son por porción estándar. Ajusta según tus necesidades calóricas.</li>
+                        <li><strong>Variedad:</strong> Alterna entre diferentes recetas para obtener una amplia gama de nutrientes.</li>
+                        <li><strong>Hidratación:</strong> Acompaña tus comidas con suficiente agua durante el día.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Sabores del Chef. Todos los derechos reservados.</p>
+            <p>Síguenos en: 
+                <a href="#"><i class="fab fa-facebook"></i> Facebook</a> | 
+                <a href="#"><i class="fab fa-instagram"></i> Instagram</a> | 
+                <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+            </p>
+            <p><i class="fas fa-envelope"></i> contacto@saboreschef.com | <i class="fas fa-phone"></i> +123 456 7890</p>
+            <button id="backToTop" title="Volver arriba"><i class="fas fa-arrow-up"></i></button>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

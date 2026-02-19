@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas - Sabores del Chef</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-utensils"></i> Sabores del Chef</h1>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Inicio</a></li>
+                    <li><a href="recetas.html"><i class="fas fa-book-open"></i> Recetas</a></li>
+                    <li><a href="nutricion.html"><i class="fas fa-chart-pie"></i> Nutrición</a></li>
+                    <li><a href="videos.html"><i class="fas fa-video"></i> Videos</a></li>
+                    <li><a href="contacto.html"><i class="fas fa-envelope"></i> Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="recetas">
+            <div class="container">
+                <h2>Recetas Destacadas</h2>
+                <div class="recetas-grid">
+                    <article class="receta-card">
+                        <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&h=300&fit=crop" alt="Pasta Carbonara">
+                        <span class="badge badge-popular">Popular</span>
+                        <h3><i class="fas fa-utensils"></i> Pasta Carbonara</h3>
+                        <p><i class="far fa-clock"></i> Tiempo: 25 min | <i class="fas fa-signal"></i> Dificultad: Media</p>
+                        <p>Una receta clásica italiana con bacon, huevo y queso parmesano que te transportará a Roma.</p>
+                    </article>
+                    <article class="receta-card">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=300&fit=crop" alt="Pizza Margherita">
+                        <span class="badge badge-new">Nuevo</span>
+                        <h3><i class="fas fa-pizza-slice"></i> Pizza Margherita</h3>
+                        <p><i class="far fa-clock"></i> Tiempo: 45 min | <i class="fas fa-signal"></i> Dificultad: Media</p>
+                        <p>La pizza perfecta con tomate fresco, mozzarella y albahaca. Simple pero deliciosa.</p>
+                    </article>
+                    <article class="receta-card">
+                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop" alt="Ensalada César">
+                        <span class="badge badge-easy">Fácil</span>
+                        <h3><i class="fas fa-leaf"></i> Ensalada César</h3>
+                        <p><i class="far fa-clock"></i> Tiempo: 15 min | <i class="fas fa-signal"></i> Dificultad: Fácil</p>
+                        <p>Fresca y crujiente, con pollo a la parrilla y nuestro aderezo casero especial.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Sabores del Chef. Todos los derechos reservados.</p>
+            <p>Síguenos en: 
+                <a href="#"><i class="fab fa-facebook"></i> Facebook</a> | 
+                <a href="#"><i class="fab fa-instagram"></i> Instagram</a> | 
+                <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+            </p>
+            <p><i class="fas fa-envelope"></i> contacto@saboreschef.com | <i class="fas fa-phone"></i> +123 456 7890</p>
+            <button id="backToTop" title="Volver arriba"><i class="fas fa-arrow-up"></i></button>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
